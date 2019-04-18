@@ -17,7 +17,7 @@ class CreateClientesTable extends Migration
             $table->bigIncrements('id');
             $table->string('nome', 60);
             $table->text('endereco');
-            $table->integer('numero')->unique();
+            $table->integer('numero')->nullable();
             $table->timestamps();
         });
     }
