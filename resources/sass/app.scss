@@ -1,0 +1,112 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.bg-cloud{
+    background-image: url('/storage/images/clouds.jpg');
+    background-size: cover;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.footer-menu{
+    width: 100%;
+    height: 27px;
+    background-color: #c0c0c0;
+    position: fixed;
+    bottom: 0;
+}
+
+.btn-start-menu{
+    margin: 2px;
+    background-color: transparent;
+    color: #000;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 2px 4px;
+}
+
+.timer-menu{
+    width:100px;
+    background-color: transparent;
+    color: #000;
+}
+
+.taskbar-right{
+    display: inline-block;
+    width: 120px;
+    float: right;
+    border: 1px solid #d6d6d6;
+    text-align: right;
+    padding: 2px 4px;
+    margin: 2px 2px 0 2px;
+    font-size: 12px;
+}
+
+.img-main img{
+    width: 420px;
+}
+
+table, tr,,th, td{
+    border: 1px solid #000;
+}
