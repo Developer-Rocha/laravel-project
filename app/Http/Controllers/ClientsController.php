@@ -19,6 +19,11 @@ class ClientsController extends Controller
         $cliente_nome = $request->post('cliente_nome');
         $cliente_endereco = $request->post('cliente_endereco');
 
+        $this->validate($request, [
+            'cliente_nome'        => 'required|max:255',
+            'cliente_endereco' => 'required',
+        ]);
+
         $sql = new Clients([
             'nome' => $cliente_nome,
             'endereco' => $cliente_endereco
