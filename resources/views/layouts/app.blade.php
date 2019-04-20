@@ -88,6 +88,6 @@
         </footer>
     </div>
 
-    
+    @include('scripts')
 </body>
 </html>
