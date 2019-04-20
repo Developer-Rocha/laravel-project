@@ -79,7 +79,7 @@
         
         <footer class="footer-menu">
             <button type="button" class="btn-start-menu">
-                <img src="{{ asset('storage/images/start.png') }}">
+                <img src="{{ asset('images/start.png') }}">
                 <strong>Start</strong>
             </button>
             <div class="taskbar-right">

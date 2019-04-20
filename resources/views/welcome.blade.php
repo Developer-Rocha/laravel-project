@@ -32,17 +32,17 @@
 
             <div class="content testeteste"> 
                 <div class="title m-b-md img-main">
-                    <img src="{{ asset('storage/images/logo-main.png') }}">
+                    <img src="{{ asset('images/logo-main.png') }}">
                 </div>
             </div>
             
             <footer class="footer-menu">
                 <button type="button" class="btn-start-menu">
-                    <img src="{{ asset('storage/images/start.png') }}">
+                    <img src="{{ asset('images/start.png') }}">
                     <strong>Start</strong>
                 </button>
                 <div class="taskbar-right">
-                    <span class="timer-menu">1:05 PM</span>
+                    <span class="timer-menu">1:30 PM</span>
                 </div>
             </footer>
         </div>
