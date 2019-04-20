@@ -36,18 +36,8 @@
                 </div>
             </div>
             
-            <footer class="footer-menu">
-                <button type="button" class="btn-start-menu">
-                    <img src="{{ asset('images/start.png') }}">
-                    <strong>Start</strong>
-                </button>
-                <div class="taskbar-right">
-                    <span class="timer-menu">1:30 PM</span>
-                </div>
-            </footer>
         </div>
-
+        @include('footer')
         @include('scripts')
-
     </body>
 </html>

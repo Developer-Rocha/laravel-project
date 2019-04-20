@@ -1,5 +1,5 @@
 
 <!-- Start Scripts -->
-<script src="{{ asset('js/angular/mainController.js') }}" defer></script>
+<script src="{{ asset('js/functions.js') }}" defer></script>
 <!-- END Scripts -->
 

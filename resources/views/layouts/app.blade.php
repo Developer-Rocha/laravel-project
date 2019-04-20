@@ -77,17 +77,10 @@
             @yield('content')
         </main>
         
-        <footer class="footer-menu">
-            <button type="button" class="btn-start-menu">
-                <img src="{{ asset('images/start.png') }}">
-                <strong>Start</strong>
-            </button>
-            <div class="taskbar-right">
-                <span class="timer-menu">1:05 PM</span>
-            </div>
-        </footer>
-    </div>
+        @include('footer')
 
+    </div>
+    @include('resource-angular')
     @include('scripts')
 </body>
 </html>

@@ -5,7 +5,7 @@ var app = angular.module('LaravelCRUD', [],
 
 app.controller('TaskController', ['$scope', '$http', function ($scope, $http){
     
-    //variaveis
+    //variables
     $scope.clients = [];
     $scope.errors = [];
     $scope.initData = {
