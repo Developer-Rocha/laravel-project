@@ -10,9 +10,12 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
-        <link rel="stylesheet" href=" {{ mix('/css/app.css') }} ">
+        <link rel="stylesheet" href=" {{ mix('/css/main.css') }} ">
+
+        <!-- Scripts -->
+        <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
-    <body class="bg-cloud">
+    <body class="bg-cloud" ng-app="app">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -38,6 +41,8 @@
             
         </div>
         @include('footer')
+
+        @include('resource-angular')
         @include('scripts')
     </body>
 </html>

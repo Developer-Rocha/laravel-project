@@ -1,6 +1,8 @@
 {
-    "/js/angular/mainController.js": "/js/angular/mainController.js",
+    "/js/angular/app.js": "/js/angular/app.js",
+    "/js/angular/controllers/menuController.js": "/js/angular/controllers/menuController.js",
+    "/js/angular/controllers/taskController.js": "/js/angular/controllers/taskController.js",
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css",
+    "/css/main.css": "/css/main.css",
     "/js/functions.js": "/js/functions.js"
 }

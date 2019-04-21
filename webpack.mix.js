@@ -13,7 +13,9 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
    .js('resources/js/functions.js', 'public/js')
-   .js('resources/js/angular/mainController.js', 'public/js/angular')
-   .sass('resources/sass/app.scss', 'public/css');
+   .js('resources/js/angular/app.js', 'public/js/angular')
+   .js('resources/js/angular/controllers/taskController.js', 'public/js/angular/controllers')
+   .js('resources/js/angular/controllers/menuController.js', 'public/js/angular/controllers')
+   .sass('resources/sass/main.scss', 'public/css');
 
 mix.copy('resources/images', 'public/images');

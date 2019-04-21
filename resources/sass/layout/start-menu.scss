@@ -1,0 +1,27 @@
+//Layout
+.start-menu{
+    position: absolute !important;
+    left: 2px;
+    bottom: 25px;
+    width: calc(186px + 21px);
+    padding-left: 21px;
+    height: 340px;
+    max-height: calc(100vh - 26px);
+    box-sizing: border-box;
+    display: none;
+    flex-direction: row;
+}
+
+//Style
+.start-menu{
+    padding: 0;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    background: #c0c0c0;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    position: relative;
+}
