@@ -23,13 +23,9 @@
         };
 
         function openMenu(){
-            if(menuCtrl.expanded === false){
-                menuCtrl.expanded = true;
-            } else{
-                menuCtrl.expanded = false;
-            }
+            menuCtrl.expanded = !menuCtrl.expanded;
         }
-        
+
     }
 })();
 

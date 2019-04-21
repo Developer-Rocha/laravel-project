@@ -1,6 +1,6 @@
 <div ng-controller="menuController as menuCtrl">
     <!-- START Menu -->
-    <div class="start-menu" ng-class="menuCtrl.expanded === true ? 'expanded' : ''"></div>
+    <div class="start-menu" ng-show="menuCtrl.expanded"></div>
     <!-- END Menu -->
   
     <footer class="footer-menu">
