@@ -24,6 +24,7 @@
     },
     "dependencies": {
         "angular": "^1.7.8",
-        "angular-route": "^1.7.8"
+        "angular-route": "^1.7.8",
+        "nodejs": "0.0.0"
     }
 }

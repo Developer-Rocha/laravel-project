@@ -6,7 +6,7 @@
     <footer class="footer-menu">
         <button type="button" class="btn-start-menu" ng-click="menuCtrl.openMenu()">
             <img src="{{ asset('images/start.png') }}">
-            <strong>Start</strong>
+            <strong>{{__('pagination.start')}}</strong>
         </button>
         <div class="taskbar-right">
             <div title="" class="timer-menu" id="js-taskbar-time"></div>

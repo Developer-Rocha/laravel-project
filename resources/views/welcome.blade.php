@@ -20,8 +20,8 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                        <a href="{{ url('/clients') }}">Clientes</a>
+                        <a href="{{ url('/home') }}">{{__('pagination.home')}}</a>
+                        <a href="{{ url('/clients') }}">{{__('pagination.clients')}}</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
 
