@@ -33,8 +33,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <div class="navbar-nav mr-auto links">
-                        <a href="{{ url('/home') }}">Home</a>
-                        <a href="{{ url('/clients') }}">Clientes</a>
+                        <a href="{{ url('/home') }}">{{__('pagination.home')}}</a>
+                        <a href="{{ url('/clients') }}">{{__('pagination.clients')}}</a>
                     </div>
 
                     <!-- Right Side Of Navbar -->
