@@ -12,7 +12,7 @@ return [
     | you want to customize your views to better match your application.
     |
     */
-
+    'title' => 'Rocha Developer',
     'previous' => '&laquo; Previous',
     'next' => 'Próximo &raquo;',
     'start' => 'Iniciar',

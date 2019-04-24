@@ -11,6 +11,11 @@
 |
 */
 
+Route::get('locale/{locale}', function ($locale){
+    Session::put('locale', $locale);
+    return redirect()->back();
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -27,5 +32,5 @@ Route::post('/clients', 'ClientsController@insertClient')->name('insert-clients'
 
 Route::get('/clients/{id}', 'ClientsController@deleteClient')->name('delete-client');
 
-//Route::resource('/contacto', 'ContactController');
 Route::resource('/task', 'TaskController');
+

@@ -12,11 +12,12 @@ return [
     | you want to customize your views to better match your application.
     |
     */
-
+    'title' => 'Rocha Developer',
     'previous' => '&laquo; Previous',
     'next' => 'Next &raquo;',
     'start' => 'Start',
     'home' => 'Home',
-    'clients' => 'Clients'
+    'clients' => 'Clients',
+
 
 ];
