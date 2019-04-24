@@ -13,10 +13,10 @@ BASE in Laravel to projects web by Fabrício Rocha
 
 Contents:
 
-Multi language
-AngularJS with controllers examples
-Bootstrap 4 only Grid
-Structure of files
+Multi language<br>
+AngularJS with controllers examples<br>
+Bootstrap 4 only Grid<br>
+Structure of files<br>
 
 ## License
 
