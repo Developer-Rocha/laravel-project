@@ -11,6 +11,13 @@
 
 BASE in Laravel to projects web by Fabrício Rocha
 
+Contents:
+
+Multi language
+AngularJS with controllers examples
+Bootstrap 4 only Grid
+Structure of files
+
 ## License
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
