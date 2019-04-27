@@ -196,7 +196,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\inicioLaravel\blog\resources\js\angular\controllers\taskController.js */"./resources/js/angular/controllers/taskController.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\inicioLaravel\repositórios\laravel-project\resources\js\angular\controllers\taskController.js */"./resources/js/angular/controllers/taskController.js");
 
 
 /***/ })

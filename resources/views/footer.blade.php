@@ -9,10 +9,10 @@
             <strong>{{__('pagination.start')}}</strong>
         </button>
         <div class="taskbar-right">
+            <div class="set-language"><a title="English" href="{{ url('locale/en') }}" >EN</a> - <a title="Portuguese" href="{{ url('locale/pt') }}" >PT</a></div>
             <div title="" class="timer-menu" id="js-taskbar-time"></div>
         </div>
     </footer>
-
 </div>
 
 

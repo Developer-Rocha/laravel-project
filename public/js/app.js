@@ -73128,8 +73128,8 @@ if (token) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\inicioLaravel\blog\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\inicioLaravel\blog\resources\sass\main.scss */"./resources/sass/main.scss");
+__webpack_require__(/*! C:\xampp\htdocs\inicioLaravel\repositórios\laravel-project\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\inicioLaravel\repositórios\laravel-project\resources\sass\main.scss */"./resources/sass/main.scss");
 
 
 /***/ })

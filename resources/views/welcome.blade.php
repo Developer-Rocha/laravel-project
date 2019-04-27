@@ -33,15 +33,6 @@
                 </div>
             @endif
 
-            <!-- START Select language -->
-            <div class="language-top">
-                <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item"><a href="{{ url('locale/en') }}" >EN</a></li>
-                    <li class="list-group-item"><a href="{{ url('locale/pt') }}" >PT</a></li>
-                </ul>
-            </div>
-            <!-- END Select language -->
-
             <div class="content testeteste"> 
                 <div class="title m-b-md img-main">
                     <img src="{{ asset('images/logo-main.png') }}">

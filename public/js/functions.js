@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\inicioLaravel\blog\resources\js\functions.js */"./resources/js/functions.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\inicioLaravel\repositórios\laravel-project\resources\js\functions.js */"./resources/js/functions.js");
 
 
 /***/ })
